@@ -7,6 +7,20 @@ using ll = long long;
 #define rall(v) v.rbegin(), v.rend() // 配列の後ろから全範囲
 #define yes cout << "Yes" << "\n" // Yes出力 
 #define no cout << "No" << "\n"  // No出力
+
+const ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const abc = "abcdefghijklmnopqrstuvwxyz"
+
+template <typename T>
+inline vector<vector<T>> make_vec2(const size_t H, const size_t W, const T& init) {
+    return vector<vector<T>>(H, vector<T>(W, init));
+}
+
+template <typename T>
+inline vector<vector<T>> make_vec2(const size_t H, const size_t W) {
+    return vector<vector<T>>(H, vector<T>(W));
+}
+
 int main() {
    
     ios::sync_with_stdio(false);
