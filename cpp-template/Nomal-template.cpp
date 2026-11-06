@@ -1,4 +1,5 @@
 // URL: https://github.com/kanztume/template-kyopuro
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
@@ -9,11 +10,11 @@ using ll = long long;
 #define no cout << "No" << "\n"  // No出力
 
 //定数まとめ
-const ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-const abc = "abcdefghijklmnopqrstuvwxyz"
+const string ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const string abc = "abcdefghijklmnopqrstuvwxyz";
 
 //二次元配列ショートカット
-//auto [変数名] = make_vec2([縦], [横], [初期値]);
+//auto [変数名] = make_vec2<型>([縦], [横], [初期値]);
 template <typename T>
 inline vector<vector<T>> make_vec2(const size_t H, const size_t W, const T& init) {
     return vector<vector<T>>(H, vector<T>(W, init));
