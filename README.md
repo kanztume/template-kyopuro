@@ -9,6 +9,10 @@
     - `meguru_bisect` : めぐる式二分探索のライブラリ
 - **`README.md`** : 参考リンクおよび運用規約・ライセンス情報の管理
 
+## 更新履歴
+- **2026/11/06**:`Nomal-template.cpp`,`bit_seartch.cpp`,`meguru_bisect`を作成
+- **2026/11/06**: リポジトリ作成
+
 ## 参考リンク
 - https://qiita.com/e6nlaq/items/649b3ae1e30a9be6be8d
 - https://qiita.com/sorachandu/items/041169d34b9f9b99bcf7
