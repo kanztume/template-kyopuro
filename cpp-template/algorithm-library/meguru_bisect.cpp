@@ -17,6 +17,8 @@ using namespace std;
    注意:
      - ok < ng の場合: [ok, ok, ..., ok, ng, ng, ..., ng] のように、左側が true、右側が false
      - ok > ng の場合: [ng, ng, ..., ng, ok, ok, ..., ok] のように、左側が false、右側が true 
+
+   URL: https://github.com/kanztume/template-kyopuro
 */
 
 bool is_ok(long long mid) {
