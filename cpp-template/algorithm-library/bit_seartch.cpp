@@ -8,6 +8,8 @@ using namespace std;
     使い方:
      要素数 N 個の全部分集合（2^N 通り）を探索する。
      N は 20 程度まで対応可能。
+
+     URL: https://github.com/kanztume/template-kyopuro
 */
 
 void bit_search(int N, const vector<long long>& A) {
