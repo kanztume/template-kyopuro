@@ -2,9 +2,11 @@
 using namespace std;
 
 /* めぐる式二分探索 計算量: O(log(right - left))
+  呼び出し方: meguru_bisect([okの値], [ngの値])
+
   使い方:
      1. 条件関数 is_ok(mid) を定義する（mid が条件を満たすなら true、満たさないなら false）。
-     2. meguru_bisect([okの値], [ngの値])で呼び出し、 OKとなる領域とNGとなる領域の境界を探す。
+     2. OKとなる領域とNGとなる領域の境界を探す。
    引数:
      ok: 必ず条件を満たす（true になる）初期値
      ng: 必ず条件を満たさない（false になる）初期値
