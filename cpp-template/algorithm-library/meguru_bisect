@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+/* めぐる式二分探索 計算量: O(log(right - left))
+  使い方:
+     1. 条件関数 is_ok(mid) を定義する（mid が条件を満たすなら true、満たさないなら false）。
+     2. meguru_bisect([okの値], [ngの値])で呼び出し、 OKとなる領域とNGとなる領域の境界を探す。
+   引数:
+     ok: 必ず条件を満たす（true になる）初期値
+     ng: 必ず条件を満たさない（false になる）初期値
+  
+   戻り値:
+     条件を満たす（true になる）境界の値
+  
+   注意:
+     - ok < ng の場合: [ok, ok, ..., ok, ng, ng, ..., ng] のように、左側が true、右側が false
+     - ok > ng の場合: [ng, ng, ..., ng, ok, ok, ..., ok] のように、左側が false、右側が true 
+*/
+
+bool is_ok(long long mid) {
+    // 問題ごとにここを書き換える
+    // 例: mid が条件を満たすなら true を返す
+    return true; 
+}
+
+long long meguru_bisect(long long ok, long long ng) {
+    while (std::abs(ok - ng) > 1) {
+        long long mid = ok + (ng - ok) / 2; // オーバーフロー防止の記述
+        if (is_ok(mid)) {
+            ok = mid;
+        } else {
+            ng = mid;
+        }
+    }
+    return ok;
+}
