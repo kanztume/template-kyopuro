@@ -7,9 +7,11 @@
   - **`algorithm-library`** : 基本アルゴリズムなどを保存するフォルダ
     - `bit_seartch.cpp` : bit全探索のライブラリ
     - `meguru_bisect` : めぐる式二分探索のライブラリ
+    - `shakutori_twopointers` : 尺取り法のライブラリ
 - **`README.md`** : リポジトリの説明、更新履歴、参考リンクなど
 
 ## 更新履歴
+- **2026/11/16**:`shakutori_twopointers`を作成
 - **2026/11/06**:`Nomal-template.cpp`,`bit_seartch.cpp`,`meguru_bisect`を作成
 - **2026/11/06**: リポジトリ作成
 
