@@ -3,7 +3,7 @@
 
 ## リポジトリ構成
 - **`cpp-template`** : C++のテンプレートを保存するフォルダ
-  - `Nomal-template.cpp` : コンテスト本番で使用するC++基本テンプレートコード
+  - `Nomal-template_cpp` : コンテスト本番で使用するC++基本テンプレートコード
   - **`algorithm-library`** : 基本アルゴリズムなどを保存するフォルダ
     - `BFS_graph.cpp` : グラフ版BFSのライブラリ
     - `BFS_grid.cpp` : グリッド版BFSのライブラリ
@@ -11,7 +11,7 @@
     - `meguru_bisect.cpp` : めぐる式二分探索のライブラリ
     - `shakutori_twopointers.cpp` : 尺取り法のライブラリ
 - **`py-template`** : Pythonのテンプレートを保存するフォルダ
-  - `Nomal-template.py` : コンテスト本番で使用するPython基本テンプレートコード 
+  - `Nomal-template_py` : コンテスト本番で使用するPython基本テンプレートコード 
   - **`algorithm-library_py`** : 基本アルゴリズムなどを保存するフォルダ
     - `BFS_grid.py` : グリット版BFSのライブラリ
 - **`README.md`** : リポジトリの説明、更新履歴、参考リンクなど
