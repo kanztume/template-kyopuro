@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 /* グラフ上の幅優先探索 (BFS - Graph) 計算量: O(V + E)
    呼び出し方:
      auto [dist, parent] = bfs_graph([頂点数], [隣接リスト], [始点]);
