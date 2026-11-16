@@ -5,13 +5,15 @@
 - **`cpp-template`** : C++のテンプレートを保存するフォルダ
   - `Nomal-template.cpp` : コンテスト本番で使用するC++基本テンプレートコード
   - **`algorithm-library`** : 基本アルゴリズムなどを保存するフォルダ
+    - `BFS_graph.cpp` : グラフ版BFSのライブラリ
+    - `BFS_grid.cpp` : グリッド版BFSのライブラリ
     - `bit_seartch.cpp` : bit全探索のライブラリ
-    - `meguru_bisect` : めぐる式二分探索のライブラリ
-    - `shakutori_twopointers` : 尺取り法のライブラリ
+    - `meguru_bisect.cpp` : めぐる式二分探索のライブラリ
+    - `shakutori_twopointers.cpp` : 尺取り法のライブラリ
 - **`README.md`** : リポジトリの説明、更新履歴、参考リンクなど
 
 ## 更新履歴
-- **2026/11/16**:`shakutori_twopointers`を作成
+- **2026/11/16**:`shakutori_twopointers`,`BFS_graph.cpp`,`BFS_grid.cpp`を作成
 - **2026/11/06**:`Nomal-template.cpp`,`bit_seartch.cpp`,`meguru_bisect`を作成
 - **2026/11/06**: リポジトリ作成
 
