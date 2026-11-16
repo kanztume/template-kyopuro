@@ -1,4 +1,5 @@
-// URL: https://github.com/kanztume/template-kyopuro
+#include <bits/stdc++.h>
+using namespace std;
 
 /* グリッド上の幅優先探索 (BFS - Grid) 計算量: O(H * W)
    呼び出し方:
