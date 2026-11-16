@@ -20,7 +20,7 @@
    注意:
      - 辺の重みがすべて 1（または重みなし）のグラフでのみ最短経路が求まる。
      - 1-indexed の頂点番号（1 〜 N）を使う場合は、引数 N に「N + 1」を渡すこと！
-
+   
    URL: https://github.com/kanztume/template-kyopuro
 */
 
