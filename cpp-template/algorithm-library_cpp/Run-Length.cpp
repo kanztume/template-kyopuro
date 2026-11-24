@@ -1,7 +1,8 @@
-// ==========================================
-// ランレングス圧縮 (Run-Length Encoding)
-// 計算量: O(N)
-// ==========================================
+/*ランレングス圧縮 (Run-Length Encoding / RLE)
+  連続する同じ要素を {値, 連続する個数} のペア配列に圧縮する。
+  計算量: 時間 O(N) / 空間 O(N)
+  使い方:auto v = rle(s);
+*/
 template <typename T>
 vector<pair<T, ll>> rle(const vector<T>& a) {
     vector<pair<T, ll>> res;
@@ -15,7 +16,6 @@ vector<pair<T, ll>> rle(const vector<T>& a) {
     return res;
 }
 
-// 文字列用
 vector<pair<char, ll>> rle(const string& s) {
     vector<pair<char, ll>> res;
     for (char c : s) {
