@@ -7,6 +7,7 @@
   - **`algorithm-library`** : 基本アルゴリズムなどを保存するフォルダ
     - `BFS_graph.cpp` : グラフ版BFSのライブラリ
     - `BFS_grid.cpp` : グリッド版BFSのライブラリ
+    - `Run-Length.cpp` : ランレングス圧縮のライブラリ
     - `bit_seartch.cpp` : bit全探索のライブラリ
     - `meguru_bisect.cpp` : めぐる式二分探索のライブラリ
     - `shakutori_twopointers.cpp` : 尺取り法のライブラリ
@@ -17,6 +18,7 @@
 - **`README.md`** : リポジトリの説明、更新履歴、参考リンクなど
 
 ## 更新履歴
+- **2026/11/16**:`Run-Length.cpp`を作成
 - **2026/11/16**:`py-template`,`algorithm-ribrary_py`を作成
 - **2026/11/16**:`shakutori_twopointers`,`BFS_graph.cpp`,`BFS_grid.cpp`を作成
 - **2026/11/06**:`Nomal-template.cpp`,`bit_seartch.cpp`,`meguru_bisect`を作成
